@@ -15,5 +15,3 @@ export {
      QuantumState
 };
 
-import { QuantumOperationTypes } from "./QuantumOperationTypes";
-export { QuantumOperationTypes };
