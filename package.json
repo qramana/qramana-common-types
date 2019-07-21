@@ -1,0 +1,30 @@
+{
+  "name": "@qramana/qramana-common-types",
+  "version": "0.0.1",
+  "description": "Common Type definitions for @qramana/qramana",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p ./",
+    "lint": "tslint -c tslint.json src/*.ts src/**/*.ts --project ./tsconfig.json",
+  },
+  "keywords": [
+    "quantum"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "qramana/qramana-common-types.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "@qramana:registry": "https://registry.npmjs.org/"
+  },
+  "author": "Qramana Team (https://github.com/qramana)",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.4.3",
+    "typescript": "^3.0.0"
+  },
+  "files": [
+    "lib"
+  ]
+}
