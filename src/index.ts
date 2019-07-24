@@ -14,4 +14,3 @@ export {
     QuantumStateGenerator,
      QuantumState
 };
-
