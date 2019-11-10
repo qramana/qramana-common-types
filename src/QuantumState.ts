@@ -26,7 +26,7 @@ export type QuantumStateGenerator = (param: QuantumStateInitializeType) => Quant
  */
 export type SimulatorLimitedQuantumStateMethods = {
     clone: () => QuantumState;
-}
+};
 
 /**
  * 量子ビットの状態ベクトルを表現する抽象クラス
@@ -35,7 +35,6 @@ export type SimulatorLimitedQuantumStateMethods = {
  * ユーザは、QuantumStateを実装したクラスを用意するか、DefaultQuantumStateを利用する
  */
 export abstract class QuantumState {
-    constructor(param: QuantumStateInitializeType) { /** abstract */ }
 
     /**
      * シミュレータ環境以外で実装できない操作を持つ
@@ -43,6 +42,7 @@ export abstract class QuantumState {
      */
     simulated?: SimulatorLimitedQuantumStateMethods;
 
+    constructor(param: QuantumStateInitializeType) { /** abstract */ }
     /**
      * @param bitId 操作の対象となる量子ビットの識別ID
      */
