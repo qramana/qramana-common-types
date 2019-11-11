@@ -25,6 +25,10 @@ export type QuantumStateGenerator = (param: QuantumStateInitializeType) => Quant
  * シミュレータ環境でのみ実行可能な処理を格納する型
  */
 export type SimulatorLimitedQuantumStateMethods = {
+
+    /**
+     * QuantumStateを複製する
+     */
     clone: () => QuantumState;
 };
 
@@ -38,7 +42,7 @@ export abstract class QuantumState {
 
     /**
      * シミュレータ環境以外で実装できない操作を持つ
-     * シミュレータ挙動を許容しない動作環境において、このプロパティは定義されない
+     * シミュレータ挙動を許容しない環境におけるQuantumStateクラスでは、このプロパティは定義されない
      */
     simulated?: SimulatorLimitedQuantumStateMethods;
 
