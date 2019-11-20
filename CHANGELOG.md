@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.3
+
+* 再publish
+
 ## 0.0.2
 
 * QuantumState#simuated 定義を追加
