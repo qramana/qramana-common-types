@@ -4,6 +4,7 @@ import {
     QuantumStateInitializeTypeString,
     QuantumStateInitializeTypeNumber,
     QuantumStateGenerator,
+    SimulatorLimitedQuantumStateMethods,
      QuantumState
     } from "./QuantumState";
 export {
@@ -12,5 +13,6 @@ export {
     QuantumStateInitializeTypeString,
     QuantumStateInitializeTypeNumber,
     QuantumStateGenerator,
+    SimulatorLimitedQuantumStateMethods,
      QuantumState
 };
