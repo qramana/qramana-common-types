@@ -27,6 +27,7 @@
       }],
       "no-shadowed-variable": false,
       "curly": false,
-      "max-classes-per-file": true
+      "max-classes-per-file": true,
+      "interface-over-type-literal": false
     }
 }
