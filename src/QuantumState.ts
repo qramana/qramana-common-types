@@ -22,6 +22,14 @@ export type QuantumStateInitializeTypeNumber = 0 | 1;
 export type QuantumStateGenerator = (param: QuantumStateInitializeType) => QuantumState;
 
 /**
+ * 複素数型
+ */
+export interface Complex {
+    real: number;
+    imag: number;
+}
+
+/**
  * シミュレータ環境でのみ実行可能な処理を格納する型
  */
 export type SimulatorLimitedQuantumStateMethods = {
@@ -30,6 +38,11 @@ export type SimulatorLimitedQuantumStateMethods = {
      * QuantumStateを複製する
      */
     clone: () => QuantumState;
+
+    /**
+     * 状態ベクトルを取得する
+     */
+    getStateVector: () => Complex[];
 };
 
 /**
