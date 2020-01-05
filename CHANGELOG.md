@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.4
+
+* Complex 型を追加
+
 ## 0.0.3
 
 * 再publish

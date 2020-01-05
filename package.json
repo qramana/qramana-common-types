@@ -1,6 +1,6 @@
 {
   "name": "@qramana/qramana-common-types",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Common Type definitions for @qramana/qramana",
   "main": "lib/index.js",
   "scripts": {
