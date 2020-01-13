@@ -5,7 +5,8 @@ import {
     QuantumStateInitializeTypeNumber,
     QuantumStateGenerator,
     SimulatorLimitedQuantumStateMethods,
-     QuantumState
+     QuantumState,
+     Complex
     } from "./QuantumState";
 export {
     MeasurementResult,
@@ -14,5 +15,6 @@ export {
     QuantumStateInitializeTypeNumber,
     QuantumStateGenerator,
     SimulatorLimitedQuantumStateMethods,
-     QuantumState
+     QuantumState,
+     Complex
 };

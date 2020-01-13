@@ -25,8 +25,8 @@ export type QuantumStateGenerator = (param: QuantumStateInitializeType) => Quant
  * 複素数型
  */
 export interface Complex {
-    real: number;
-    imag: number;
+    re: number;
+    im: number;
 }
 
 /**
