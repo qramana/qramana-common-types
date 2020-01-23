@@ -1,6 +1,6 @@
 {
   "name": "@qramana/qramana-common-types",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Common Type definitions for @qramana/qramana",
   "main": "lib/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "license": "MIT",
   "devDependencies": {
     "tslint": "^5.4.3",
-    "typescript": "^3.0.0"
+    "typescript": "~3.7.0"
   },
   "files": [
     "lib"
